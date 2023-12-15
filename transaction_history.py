@@ -99,7 +99,7 @@ def main():
         total_cost = 0.0
 
         for row_p in df_p.itertuples():
-            if row_s[data.col_name_s] != row_p[data.col_name_p]:
+            if row_s[data.col_name_s].lower().strip() != row_p[data.col_name_p].lower().strip():
                 continue
             if not row_p[data.col_unr_volume_p] > 0:
                 continue
