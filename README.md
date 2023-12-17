@@ -20,6 +20,16 @@ FIFO Method: Utilizes the First-In, First-Out method to determine the cost of go
   ![launch_data.png](launch_data.png)
 * Run the program to obtain accurate cost of revenue figures.
 
+### INFO
+* The volume can be a float number
+* The name of a given company in purchase and sale transactions must be the same. The letter case does not matter
+
+### WARNING
+* The transaction currency for buying and selling must be the same for a given company
+* If the Excel file name is different from the one in the project, change the 'excel_name' variable in the Python file
+* When adding a purchase transaction, enter the purchase volume in the 'Unrealized volume' column
+* In the configuration sheet 'launch_data,' you cannot move cells. You can only change values
+
 ## Integration with Excel
 The FIFO Cost Calculator seamlessly integrates with Excel, allowing users to conveniently input and manage transactions using Excel files. Simply open the Excel file, manually enter transactions, and let the program handle the rest.
 
